@@ -1,4 +1,4 @@
-# safe_links.py
+# safe_links
 Copies URL from clipboard and extracts original URL from ATP Safe Links URL, then copies original URL to clipboard. 
 
 Installation: 
