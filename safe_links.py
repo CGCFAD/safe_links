@@ -1,5 +1,6 @@
 import urllib.parse
 import pyperclip
+import os
 
 
 class SafeLinksUrl:
@@ -29,8 +30,9 @@ def main():
     """
     _safe_links = SafeLinksUrl()
     _decoded = DecodedUrl()
-    print('\n' + _safe_links.name + ': ' + _safe_links.url)
-    print('\n' + _decoded.name + ': ' + _decoded.url + '\n')
+    os.system('cls' if os.name == 'nt' else 'clear')
+    print('\33[32m' + _safe_links.name  + ': ' + '\x1b[0m' + _safe_links.url)
+    print('\33[31m' + '\n' + _decoded.name +': ' + '\x1b[0m' + _decoded.url + '\n')
     pyperclip.copy(_decoded.url)
 
 
