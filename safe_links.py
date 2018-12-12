@@ -21,7 +21,7 @@ class DecodedUrl:
 def main():
     """
     Extracts original URL from ATP Safe Links URL.
-    pip install -r requirements.txt
+    Installation: pip install -r requirements.txt
 
     Usage:  copy ATP Safe Links URL from email to clipboard (select URL, CTRL+C or select URL, CMD+C)
             python safe_links.py
