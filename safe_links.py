@@ -14,7 +14,7 @@ class DecodedUrl:
         url = pyperclip.paste()
         url = url.split('url=', 1)[-1]
         url = url.split('&data')[0]
-        url = urllib.parse.unquote(url).decode('utf8')
+        url = urllib.parse.unquote(url)
         self.url = url
 
 
