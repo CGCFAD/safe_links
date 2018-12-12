@@ -1,7 +1,9 @@
 # safelinks
 Copies URL from clipboard and extracts original URL from ATP Safe Links URL, then copies original URL to clipboard. 
 
-Installation: pip install -r requirements.txt
+Installation: 
+
+        pip install -r requirements.txt
 
 Usage:  
 
