@@ -6,7 +6,6 @@ class SafeLinksUrl:
     def __init__(self):
         self.name = 'ATP Safe Links Url'
         self.url = pyperclip.paste()
-        pass
 
 
 class DecodedUrl:
@@ -17,7 +16,6 @@ class DecodedUrl:
         url = url.split('&data')[0]
         url = urllib.unquote(url).decode('utf8')
         self.url = url
-        pass
 
 
 def main():
