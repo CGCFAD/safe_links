@@ -7,7 +7,7 @@ Installation:
 
 Usage:  
 
-        copy ATP Safe Links URL from email to clipboard (select URL, CTRL+C or select URL, CMD+C)
+        copy ATP Safe Links URL from email to clipboard (select URL, CTRL+C or CMD+C)
 
         python safe_links.py
         
